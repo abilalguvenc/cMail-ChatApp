@@ -11,7 +11,7 @@ If a user sends a message to you, program makes a sound to notify you.
 
 ## Used Functions List
  - **setlocale(LC_ALL,"Turkish");**
- *Sets program's language to Turkish. *
+ *Sets program's language to Turkish.*
  - **SetConsoleTitle("c-Posta v1.0 (Hazirlayan Bilal Guvenc)");**
 *Sets console name with string.*
  - **KonsolBoyutu(int width, length 50);**
@@ -20,7 +20,7 @@ If a user sends a message to you, program makes a sound to notify you.
  *Draws shadow under my boxes. (Actually it prints space character. Nothing special.)*
  - **KutuCiz(int x, int y, int width, int length);**
  *Draws box to the screen. Color must be set before function.*
- - **strcmp(s1, s2); **
+ - **strcmp(s1, s2);**
  *Compares two strings.*
  - **strcpy(s1, s2);**
  *Copys string to another.*
@@ -32,7 +32,7 @@ If a user sends a message to you, program makes a sound to notify you.
  *returns TRUE or FALSE If socket’s FD is set it returns TRUE. With this I can get to other step if there aren’t any messages.*
  - **send(socket, "MESSAGE", sizeof("MESSAGE"), 0);**
  *Sends “MESSAGE” to socket.*
- - **recv(socket, STRING, sizeof(STRING), 0); **
+ - **recv(socket, STRING, sizeof(STRING), 0);**
  *Receives STRING form socket.*
  - **TarihBul();**
  *returns TARIH Finds current date and time and returns as a struct that I’ve created.*
