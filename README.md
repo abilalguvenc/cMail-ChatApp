@@ -9,7 +9,7 @@ Chatting section is designed like modern chat apps, for example whatsapp.
 You can send and receive messages at the same time, you don't need to run a command to check messages. 
 If a user sends a message to you, program makes a sound to notify you.
 
-## Used Functions List
+## Functions List
  - **setlocale(LC_ALL,"Turkish");**
  *Sets program's language to Turkish.*
  - **SetConsoleTitle("c-Posta v1.0 (Hazirlayan Bilal Guvenc)");**
@@ -64,7 +64,7 @@ There are too many bugs. If a client doesn’t sends a message that it should se
 - **Image 4 - Chat Screen**
 ![Chat Screen](https://raw.githubusercontent.com/bilalguvenc/cMail-ChatApp/master/screenshots/SS4.png "Chat Screen")
 
-- **Image 5 - Server Console**
+- **Image 5 - Server Console** \
 ![Server Console](https://raw.githubusercontent.com/bilalguvenc/cMail-ChatApp/master/screenshots/SS5.png "Server Console")
 
 
